@@ -67,7 +67,7 @@ def renew(sess_id, session, password, order_id) -> bool:
         "Referer": "https://support.euserv.com/index.iphp"
     }
     data = {
-        "Submit": "Extend contract",
+        "Submit": "extend contract",
         "sess_id": sess_id,
         "ord_no": order_id,
         "subaction": "choose_order",
